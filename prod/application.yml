@@ -5,4 +5,6 @@ eureka:
     client:
         service-url:
             defaultZone: http://eureka1:9101.samples.mls
-                
+
+property:
+    name: prod
