@@ -1,0 +1,10 @@
+server:
+    port: 9001
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://eureka1:9101.samples.mls
+
+property:
+    name: stage-data-provider
