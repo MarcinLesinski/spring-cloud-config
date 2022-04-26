@@ -1,5 +1,5 @@
 server:
-    port: 9001
+    port: 0
 
 eureka:
     client:
@@ -7,4 +7,4 @@ eureka:
             defaultZone: http://eureka1:9101.samples.mls
 
 property:
-    name: stage-data-provider
+    name: local
