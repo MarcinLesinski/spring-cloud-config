@@ -1,6 +1,6 @@
 spring:
     application:
-        name: serive-registry-two
+        name: service-registry-two
 
 server:
     port: 9822
@@ -10,7 +10,6 @@ eureka:
     instance:
         hostname: service-registry.two.mls
         
-eureka:
     client:
         service-url:
             defaultZone: http://service-registry.one.mls:9821/eureka
