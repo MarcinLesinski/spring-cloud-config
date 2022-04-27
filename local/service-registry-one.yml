@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: service-registry-one
+
+
+server:
+    port: 9821
+
+eureka:
+    instance:
+        hostname: service-registry-eureka-one
+        
+eureka:
+    client:
+        service-url:
+            defaultZone: http://service-registry-eureka-two:9822/eureka
+

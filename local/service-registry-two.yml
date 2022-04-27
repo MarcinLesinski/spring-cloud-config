@@ -1,0 +1,18 @@
+spring:
+    application:
+        name: serive-registry-two
+
+server:
+    port: 9822
+
+
+eureka:
+    instance:
+        hostname: eureka:
+    instance:
+        hostname: service-registry-eureka-two
+        
+eureka:
+    client:
+        service-url:
+            defaultZone: http://service-registry-eureka-one:9821/eureka

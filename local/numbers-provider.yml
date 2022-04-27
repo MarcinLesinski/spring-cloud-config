@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: numbers-provider
+
+server:
+    port: 9101
+
+
