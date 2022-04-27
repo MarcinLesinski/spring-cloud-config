@@ -8,9 +8,9 @@ server:
 
 eureka:
     instance:
-        hostname: service-registry-eureka-two
+        hostname: service-registry.two.mls
         
 eureka:
     client:
         service-url:
-            defaultZone: http://service-registry-eureka-one:9821/eureka
+            defaultZone: http://service-registry.one.mls:9821/eureka
