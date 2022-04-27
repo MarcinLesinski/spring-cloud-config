@@ -4,7 +4,8 @@ server:
 eureka:
     client:
         service-url:
-            defaultZone: http://eureka1:9101.samples.mls
+                defaultZone: http://eureka-one:9101/eureka/,
+                             http://eureka-two:9102/eureka/
 
 property:
     name: local
