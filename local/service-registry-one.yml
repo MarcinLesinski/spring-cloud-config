@@ -8,8 +8,8 @@ server:
 
 eureka:
     instance:
-        hostname: service-registry.one.mls        
+        hostname: localhost        
     client:
         service-url:
-            defaultZone: http://service-registry.two.mls:9822/eureka
+            defaultZone: http://localhost:9822/eureka
 
