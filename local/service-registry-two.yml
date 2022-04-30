@@ -13,3 +13,5 @@ eureka:
     client:
         service-url:
             defaultZone: http://service-registry.one:9821/eureka
+            
+    renewalPercentThreshold: 0.85
