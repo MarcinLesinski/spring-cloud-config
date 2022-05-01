@@ -10,6 +10,9 @@ eureka:
     instance:
         hostname: service-registry.two
         
+    server:
+        enable-self-preservation: false
+        
     client:
         service-url:
             defaultZone: http://service-registry.one:9821/eureka
